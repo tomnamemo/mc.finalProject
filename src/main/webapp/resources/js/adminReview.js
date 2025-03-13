@@ -17,7 +17,7 @@ function loadReviewManagement() {
 
 // 리뷰 불러오기
 function loadReviews() {
-	fetch("/myapp/api/reviews/admin/reviews")
+	fetch(`${contextPath}/api/reviews/admin/reviews`)
 		.then((response) => response.json())
 		.then((data) => {
 			const tableBody = document.querySelector("#reviewTable tbody");

@@ -169,7 +169,7 @@
             <groupId>jdbc.oracle</groupId>
             <artifactId>OracleDriver</artifactId>
             <version>12.1.0.2.0</version>
-            <scope>system</scope>
+            <scope>system</scope> 
             <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ojdbc6.jar</systemPath>
         </dependency>
 
